@@ -1,0 +1,10 @@
+{
+    "name": "jeykeu/utils/return-value",
+    "description": "ReturnValue is an helper class to handle return values, status codes and messages returned from different functions.",
+    "authors": [
+        {
+            "name": "JeyKeu",
+            "email": "shekhanzai.baloch@gmail.com"
+        }
+    ]
+}
