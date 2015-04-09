@@ -1,11 +1,22 @@
 {
-    "name": "jeykeu/return-value",
-    "description": "ReturnValue is an helper class to handle return values, status codes and messages returned from different functions.",
-    "license": "GPL 3",
+    "name": "jeykeu/returnvalue",
+    "type": "library",
+    "description": "ReturnValue is an helper class which handles return values, status codes and messages returned from different functions.",
+    "homepage": "http://junaidqadir.com",
+    "license": "MIT",
     "authors": [
         {
-            "name": "JeyKeu",
-            "email": "shekhanzai.baloch@gmail.com"
+            "name": "Junaid Qadir",
+            "email": "shekhanzai.baloch@gmail.com",
+            "homepage": "http://junaidqadir.com"
         }
-    ]
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": {
+            "": "src/ReturnValue.php"
+        }
+    }
 }
