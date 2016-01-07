@@ -8,11 +8,10 @@ Installation
 $ composer require jeykeu/response
 ```
 
-Useage 
+Usage 
 ==========
 to return json in response of an AJAX request
 ```php
-$response     = new \Response\Response();
+$response = new \JeyKeu\Response\Response();
 echo $response->json('success', 'Thank You');
-exit;
 ```
