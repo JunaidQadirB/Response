@@ -1,5 +1,5 @@
 {
-  "name": "jeykeu/returnvalue",
+  "name": "jeykeu/response",
   "type": "library",
   "description": "ReturnValue is an helper class which handles return values, status codes and messages returned from different functions.",
   "homepage": "http://junaidqadir.com",
