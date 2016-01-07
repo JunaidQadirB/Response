@@ -1,11 +1,11 @@
-ReturnValue
+Response
 ===========
-ReturnValue is an helper class to handle return values, status codes and messages returned from different functions.
+Response is an helper class which handles HTTP response, status codes and messages returned from different functions. Useful for unifiying API responses.
 
 Installation
 ============
 ```php
-$ composer require jeykeu/returnvalue
+$ composer require jeykeu/response
 ```
 
 Useage 
