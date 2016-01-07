@@ -1,7 +1,7 @@
 {
   "name": "jeykeu/response",
   "type": "library",
-  "description": "ReturnValue is an helper class which handles return values, status codes and messages returned from different functions.",
+  "description": "Response is an helper class which handles HTTP response, status codes and messages returned from different functions. Useful for unifiying API responses.",
   "homepage": "http://junaidqadir.com",
   "license": "MIT",
   "authors": [
@@ -9,7 +9,12 @@
       "name": "Junaid Qadir",
       "email": "shekhanzai.baloch@gmail.com",
       "homepage": "http://junaidqadir.com"
+    },
+    {
+      "name": "Azeem Hassni",
+      "email": "azibaloch247@gmail.com"
     }
+    
   ],
   "require": {
     "php": ">=5.3.0"
