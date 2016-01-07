@@ -1,9 +1,9 @@
-<?php namespace Response;
+<?php namespace JeyKeu\Response;
 
-use Response\Contracts\ResponseInterface;
+use JeyKeu\Response\Contracts\ResponseInterface;
 
 /**
- * ReturnValue is an helper class to handle
+ * Response is an helper class to handle
  * return values, status codes and messages
  * returned from different functions
  *

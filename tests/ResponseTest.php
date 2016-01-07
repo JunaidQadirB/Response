@@ -11,7 +11,7 @@ class ResponseTest extends PHPUnit_Framework_TestCase
      */
     public function it_gets_json_string()
     {
-        $response     = new \Response\Response();
+        $response     = new JeyKeu\Response\Response();
         $shouldOutPut = json_encode(array('status' => 'success', 'message' => 'Thank You'));
         $data         = $response->json('success', 'Thank You');
         $this->assertEquals($shouldOutPut, $data);
@@ -22,7 +22,7 @@ class ResponseTest extends PHPUnit_Framework_TestCase
      */
     public function it_gets_json_string_using_magic_methods()
     {
-        $response     = new \Response\Response();
+        $response     = new JeyKeu\Response\Response();
         $shouldOutPut = json_encode(array('status' => 'success', 'message' => 'Thank You'));
         $data         = $response->writeJson('success', 'Thank You');
         $this->assertEquals($shouldOutPut, $data);
@@ -34,7 +34,7 @@ class ResponseTest extends PHPUnit_Framework_TestCase
     public function it_calls_existing_method_statically()
     {
         $shouldOutPut = json_encode(array('status' => 'success', 'message' => 'Thank You'));
-        $data         = \Response\Response::json('success', 'Thank You');
+        $data         = JeyKeu\Response\Response::json('success', 'Thank You');
         $this->assertEquals($shouldOutPut, $data);
     }
 
@@ -43,7 +43,7 @@ class ResponseTest extends PHPUnit_Framework_TestCase
      */
     public function it_accepts_extra_arguments()
     {
-        $response     = new \Response\Response();
+        $response     = new JeyKeu\Response\Response();
         $shouldOutPut = json_encode(array(
             'status'  => 'success',
             'message' => 'Thank You',
@@ -60,7 +60,7 @@ class ResponseTest extends PHPUnit_Framework_TestCase
      */
     public function it_gets_json_without_message_parameter()
     {
-        $response     = new \Response\Response();
+        $response     = new JeyKeu\Response\Response();
         $shouldOutPut = json_encode(array('status' => 'success'));
         $data         = $response->writeJson('success');
         $this->assertEquals($shouldOutPut, $data);

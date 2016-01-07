@@ -1,6 +1,6 @@
 <?php
 
-namespace Response;
+namespace JeyKeu\Response;
 
 /**
  * Class Response
@@ -98,7 +98,7 @@ class Response
      */
     private function getClassName( $method )
     {
-        return "Response\\" . substr($method, 5);
+        return "JeyKeu\\Response\\" . substr($method, 5);
     }
 
 

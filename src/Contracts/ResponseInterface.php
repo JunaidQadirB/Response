@@ -1,4 +1,4 @@
-<?php namespace Response\Contracts;
+<?php namespace JeyKeu\Response\Contracts;
 
 interface ResponseInterface
 {
