@@ -1,4 +1,4 @@
-<?php namespace Vanadium\Providers;
+<?php namespace JeyKeu\Response;
 
 use Illuminate\Support\ServiceProvider;
 use JeyKeu\Response\Response;
