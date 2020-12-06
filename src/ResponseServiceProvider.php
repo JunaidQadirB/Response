@@ -1,7 +1,7 @@
-<?php namespace JeyKeu\Response;
+<?php namespace JunaidQadir\Response;
 
 use Illuminate\Support\ServiceProvider;
-use JeyKeu\Response\Response;
+use JunaidQadir\Response\Response;
 
 class ResponseServiceProvider extends ServiceProvider
 {
@@ -26,7 +26,7 @@ class ResponseServiceProvider extends ServiceProvider
             return new Response();
         });
 
-        $this->app->alias('ajaxResponse', 'JeyKeu\Response\Response');
+        $this->app->alias('ajaxResponse', 'JunaidQadir\Response\Response');
     }
 
     /**
@@ -36,6 +36,6 @@ class ResponseServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['ajaxResponse', 'JeyKeu\Response\Response'];
+        return ['ajaxResponse', 'JunaidQadir\Response\Response'];
     }
 }

@@ -1,11 +1,11 @@
 <?php
 
-namespace JeyKeu\Response;
+namespace JunaidQadir\Response;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \JeyKeu\Response\Response
+ * @see \JunaidQadir\Response\Response
  */
 class ResponseFacade extends Facade
 {

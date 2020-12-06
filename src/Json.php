@@ -1,6 +1,6 @@
-<?php namespace JeyKeu\Response;
+<?php namespace JunaidQadir\Response;
 
-use JeyKeu\Response\Contracts\ResponseInterface;
+use JunaidQadir\Response\Contracts\ResponseInterface;
 
 /**
  * Response is an helper class to handle
